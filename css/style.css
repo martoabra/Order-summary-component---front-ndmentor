@@ -8,7 +8,7 @@ body {
     height: 100%;
     background-color: hsl(225, 100%, 94%);
     background-image: url(/images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -19,6 +19,7 @@ body {
     width: 70%;
     text-align: center;
     margin: 0 auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .summaryContainer {
@@ -76,13 +77,18 @@ body {
 }
 
 .changeBtn {
-    color: hsl(223, 47%, 23%);
+    color: hsl(245, 75%, 52%);
+}
+
+.changeBtn:hover {
+    color: hsl(224, 23%, 55%);
 }
 
 .proceedBtn {
     background-color: hsl(245, 75%, 52%);
     color: #fff;
-    margin-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .proceedBtn:hover {
@@ -93,6 +99,12 @@ body {
 .cancelBtn {
     margin-bottom: 1rem;
     background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+}
+
+.cancelBtn:hover {
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(223, 47%, 23%);
 }
 
 .attribution {
