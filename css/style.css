@@ -82,11 +82,16 @@ body {
 .proceedBtn {
     background-color: hsl(245, 75%, 52%);
     color: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.proceedBtn:hover {
+    background-color: hsl(224, 23%, 55%);
+    color: #fff;
 }
 
 .cancelBtn {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: hsl(225, 100%, 98%);
 }
 
